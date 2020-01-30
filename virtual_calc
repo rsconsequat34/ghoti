@@ -1,0 +1,41 @@
+
+#Input 2 numbers
+#Select a function to
+#Print the result
+
+
+list = ["0 = Addition",'1 = Subtraction','3 = Multiplication','4 = Division']
+
+print ("Welcome to your virtual calculator")
+
+num1 = raw_input ("Enter you number:\n")
+num2 = raw_input ("Enter another number:\n")
+
+
+print ("Your first number was:"+num1)
+print ("Your second number was:"+num2)
+print (" ")
+
+x = 0
+
+while (x<4):
+    print(list[x])
+    x = (x+1)
+
+print (" ")
+
+num3 = raw_input ("What function would you like to perform:\n")
+
+print ("Your answer is:")
+
+if (int(num3) == 0):
+    print (int(num1)+int(num2))
+
+if (int(num3) == 1):
+    print (int(num1)-int(num2))
+
+if (int(num3) == 3):
+    print (int(num1)*int(num2))
+
+if (int(num3) == 4):
+    print (int(num1)/int(num2))
