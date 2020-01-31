@@ -34,8 +34,8 @@ if (int(num3) == 0):
 if (int(num3) == 1):
     print (int(num1)-int(num2))
 
-if (int(num3) == 3):
+if (int(num3) == 2):
     print (int(num1)*int(num2))
 
-if (int(num3) == 4):
+if (int(num3) == 3):
     print (int(num1)/int(num2))
